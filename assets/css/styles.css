@@ -127,3 +127,17 @@ body{
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+    .layout {
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
+    .recipe-grid {
+        grid-template-columns: 1fr;
+    }
+}
